@@ -3,5 +3,12 @@
   "version": "0.0.1",
   "main": "src/index.js",
   "author": "Gavin Francis <gav@eh7.co.uk>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "util": "^0.12.4"
+  },
+  "scripts": {
+    "test": "node src/test.js"
+  }
 }
